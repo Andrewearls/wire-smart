@@ -50,6 +50,10 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.text-orange {
+  color: #F05F40;
+}
+
 section {
   padding: 8rem 0;
 }
@@ -169,7 +173,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/electrician.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
