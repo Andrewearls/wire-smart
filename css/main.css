@@ -47,7 +47,7 @@ h6 {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .text-orange {
@@ -173,7 +173,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/electrician.jpg");
+  background-image: url("../img/electrician1.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -184,14 +184,17 @@ header.masthead {
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
+  border-color: white;
 }
 
 header.masthead h1 {
   font-size: 2rem;
+  text-shadow: 2px 2px #a9a9a9;
 }
 
 header.masthead p {
-  font-weight: 300;
+  color: #515151;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
