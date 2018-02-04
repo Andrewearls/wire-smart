@@ -190,7 +190,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/electrician1.jpg");
+  background-image: url("../img/SecurityWall.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -222,7 +222,7 @@ header.masthead h1 {
 }
 
 header.masthead p {
-  color: #515151;
+  color: #C0C0C0;
   font-weight: 600;
 }
 
