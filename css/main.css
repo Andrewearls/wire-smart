@@ -205,11 +205,16 @@ header.masthead hr {
 }
 
 header.masthead .logo {
-  width: 100px;
+  width: 150px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 3px;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
+  background: radial-gradient(circle, white 40%, rgba(255, 255, 255, .5) 75%, rgba(255, 255, 255, 1) 80%);
+  border-radius: 100px;
 }
 
 header.masthead .logo img{
@@ -327,6 +332,7 @@ header.masthead p {
   border: none;
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  margin: 10px;
 }
 
 .btn-xl {
