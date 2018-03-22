@@ -86,6 +86,7 @@ section {
   text-shadow: none;
 }
 
+
 img::selection {
   color: #fff;
   background: transparent;
@@ -201,7 +202,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/CheckYourPhone.png");
+  background-image: url("../img/lq-CheckYourPhone.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
