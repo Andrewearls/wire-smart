@@ -4,6 +4,11 @@
   "use strict"; // Start of use strict
 
   $('#myimg').css('background-image', 'url(img/CheckYourPhone.png)');
+  var loadedHeader = $('#lq-header').clone();
+  loadedHeader.attr('id', 'loaded-header').css('background-image', "url(img/CheckYourPhone.png").on('load', function() {
+    $(this).append('#header');
+    $('#lq-header').css('display', 'none');
+  });
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
